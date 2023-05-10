@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: azure;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid blue;
+    background-color:blueviolet;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: white;
+    color: blueviolet;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: lightgray;
+    color: darkblue;
+    transition: 0ms;
+    height: 40px;
+    width: 140px;
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+#tabela {
+    margin-top: 20px;
+}
+#tabela, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 20px;
+}
